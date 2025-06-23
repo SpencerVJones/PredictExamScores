@@ -42,6 +42,7 @@ A machine learning project that predicts student exam scores based on various ac
 ## 📑 Table of Contents
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
+- [Dataset](#dataset)
 - [Features](#features)
 - [Demo](#demo)
 - [Project Structure](#project-structure)
@@ -70,6 +71,12 @@ This tool can be valuable for educators, students, and academic institutions to 
 -   **Matplotlib** - Data visualization
 -   **Seaborn** - Statistical data visualization
 -   **Jupyter Notebook** - Interactive development environment
+
+## Dataset
+This project uses the **Student Habits vs Academic Performance** dataset from Kaggle:
+-   **Source**: [kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance](https://kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance?resource=download)
+-   **Features**: Study hours, attendance percentage, mental health rating, sleep hours, part-time job status
+-   **Target**: Exam scores (0-100)
 
 ## Features
 -   **Multi-factor Analysis**: Considers various academic and behavioral factors
@@ -140,10 +147,8 @@ streamlit run app.py
 ### Making Predictions
 The web interface allows you to:
 -   Input individual student parameters
--   Upload CSV files for batch predictions
--   View prediction results with confidence intervals
--   Export predictions for further analysis
- 
+-   View prediction results
+
 ## Roadmap
 - [x] Create web-based dashboard for predictions
 - [ ] Add deep learning models (Neural Networks)
@@ -168,11 +173,8 @@ Contributions are welcome! Feel free to submit issues or pull requests with bug 
   <img src="https://contrib.rocks/image?repo=SpencerVJones/PredictExamScores"/>
 </a>
 
-
 ## License
 Distributed under the MIT License. See LICENSE for more information.
-
-
 
 ## Contact
 Spencer Jones
