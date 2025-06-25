@@ -1,6 +1,11 @@
 <div align="center">
   <h2 align="center">Predict Exam Scores</h2>
   <p align="center">
+<div align="left">
+	
+   ![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=SpencerVJones/PredictExamScores)
+</div>
+	
 A machine learning project that predicts student exam scores based on various academic and behavioral factors.
     <br />
     <br />
